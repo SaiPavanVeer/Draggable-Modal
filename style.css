@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #b983ff;
+}
+::selection {
+  color: #fff;
+  background: #b983ff;
+}
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 450px;
+  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.06);
+  /* visibility: hidden; */
+}
+.wrappers {
+  visibility: visible;
+}
+.wrapper header {
+  font-size: 1.7rem;
+  font-weight: 500;
+  text-align: center;
+  padding: 17px 30px;
+  border-bottom: 1px solid #ccc;
+}
