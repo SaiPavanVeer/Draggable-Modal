@@ -21,7 +21,7 @@ body {
   border-radius: 10px;
   transform: translate(-50%, -50%);
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.06);
-  /* visibility: hidden; */
+  visibility: hidden;
 }
 .wrappers {
   visibility: visible;
@@ -32,4 +32,48 @@ body {
   text-align: center;
   padding: 17px 30px;
   border-bottom: 1px solid #ccc;
+}
+.names,
+.ages,
+.mails {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+.canbtn,
+.subbtn {
+  font-weight: 600;
+  padding: 10px;
+  margin: 1rem 1rem 1rem 7rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  background-color: #b983ff;
+  color: white;
+}
+.close {
+  padding: 5px 10px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 600;
+  background-color: #b983ff;
+  color: white;
+}
+.register {
+  padding: 1rem;
+  border-radius: 10px;
+  border: 3px solid white;
+  margin: 5rem 0px 0px 45rem;
+  background-color: #b983ff;
+  color: white;
+  font-size: 1.2rem;
+}
+.register:hover {
+  color: #b983ff;
+  background-color: white;
+  border: 3px solid rgb(136, 136, 136);
 }
