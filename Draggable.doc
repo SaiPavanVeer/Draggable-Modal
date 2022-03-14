@@ -1,0 +1,29 @@
+# Draggable-Modal
+Draggable Modal
+
+
+
+In this, I going to create a modal using HTML, CSS, and JavaScript. First, open vs code and create the index.html, style.css, and app.js.
+And then we should open the HTML page.
+First, I will link the google fonts, style.css, and app.js to the HTML, and next, I will start the code.
+Create a div and in that div create a button class name is register and button name is also register only.
+And after that, I create a popup so when I check the button it will popup create a div class name called wrapper.
+And ion it header it is the registration form. and create a div class name is a content.
+In it create another div in this create a form and input is the name.
+And same as creating another div it is age and another in its mail after this create a button cancel and submit button.
+And after this create a close button. 
+Till here the Html is over and I will style Html components on style.css.
+I will do basic stylings for the Html body of padding, margin, border-box, and font styles.  
+I will give the whole body one color.
+Now I will style the popup so I will add position properties to it.
+And add max-width to and width also and border-radius, box-shadow to it and visible are hidden.
+In this, I made visibility visible so it will be used in the js it will be used in a function.
+In this, I styled the header part of the wrapper I increased the font size and font-weight, text-align, padding, and border-bottom. 
+In this I will style the tables and forms it should come side by side so I used to display and its properties.
+Now I will style the button in the table so I used the padding, margin, font-width, and border. 
+Now I will style the close button I used the position and its properties to keep it in on the right side top.
+In this, I will style the register button. And I will give a hover to that. 
+Now I will add functionality to it in javascript. First, I will import the all class to the js.
+I will add a mouse down and remove the mouse up and add the event listener of on drag. It's when I drag on it. It will work.  
+In this, I will add functions to the register button and close button, and cancel button. 
+When I click the Register button it opens the popup and when I click on the close or cancel button it will be closed.
